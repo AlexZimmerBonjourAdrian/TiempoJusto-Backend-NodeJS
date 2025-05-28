@@ -5,7 +5,9 @@
     "main": "src/app.js",
     "scripts": {
         "start": "node src/app.js",
-        "dev": "nodemon src/app.js"
+        "dev": "nodemon",
+        "dev:debug": "nodemon --inspect",
+        "dev:verbose": "nodemon --verbose"
     },
     "repository": {
         "type": "git",
